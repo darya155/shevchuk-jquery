@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F476FC2-95B4-41D1-AE6E-44C46FBA05FC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Shevchuk</RootNamespace>
+    <AssemblyName>Shevchuk</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Code\.gitignore" />
+    <Content Include="Code\LICENSE.md" />
+    <Content Include="Code\README.md" />
+    <Content Include="Code\ajax\example.code" />
+    <Content Include="Code\ajax\example.json" />
+    <Content Include="Code\ajax\example.php" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Code\accordion.html" />
+    <Content Include="Code\ajax.datatype.html" />
+    <Content Include="Code\ajax.google.html" />
+    <Content Include="Code\ajax.jsonp.html" />
+    <Content Include="Code\ajax.live.html" />
+    <Content Include="Code\ajax.load.html" />
+    <Content Include="Code\ajax.script.html" />
+    <Content Include="Code\ajax.settings.html" />
+    <Content Include="Code\ajax.transport.html" />
+    <Content Include="Code\ajax\example.html" />
+    <Content Include="Code\ajax\example.js" />
+    <Content Include="Code\ajax\example.txt" />
+    <Content Include="Code\ajax\example.xml" />
+    <Content Include="Code\ajax\menu1.html" />
+    <Content Include="Code\ajax\menu2.html" />
+    <Content Include="Code\ajax\menu3.html" />
+    <Content Include="Code\animate.easing.html" />
+    <Content Include="Code\animate.game.html" />
+    <Content Include="Code\animate.html" />
+    <Content Include="Code\animate.prefilter.html" />
+    <Content Include="Code\animate.queue.html" />
+    <Content Include="Code\animate.step.html" />
+    <Content Include="Code\animate.tweener.html" />
+    <Content Include="Code\callbacks.html" />
+    <Content Include="Code\class.html" />
+    <Content Include="Code\color.html" />
+    <Content Include="Code\css.float.html" />
+    <Content Include="Code\css.html" />
+    <Content Include="Code\css.link-types.html" />
+    <Content Include="Code\css.priority.html" />
+    <Content Include="Code\css.selectors-test.html" />
+    <Content Include="Code\css.selectors.html" />
+    <Content Include="Code\css\styles.css" />
+    <Content Include="Code\deferred.html" />
+    <Content Include="Code\deferred.pipe.html" />
+    <Content Include="Code\easing.html" />
+    <Content Include="Code\events.basic.html" />
+    <Content Include="Code\events.data.html" />
+    <Content Include="Code\events.form.html" />
+    <Content Include="Code\events.mouse.html" />
+    <Content Include="Code\events.namespace.html" />
+    <Content Include="Code\events.optimization.html" />
+    <Content Include="Code\fade.html" />
+    <Content Include="Code\form.html" />
+    <Content Include="Code\height.html" />
+    <Content Include="Code\hide.html" />
+    <Content Include="Code\html.block.html" />
+    <Content Include="Code\html.example.html" />
+    <Content Include="Code\images\ajax-loader.gif" />
+    <Content Include="Code\images\arrows.png" />
+    <Content Include="Code\images\car.png" />
+    <Content Include="Code\images\console-this.png" />
+    <Content Include="Code\images\console-verbose-not.png" />
+    <Content Include="Code\images\console.png" />
+    <Content Include="Code\images\easeInBack.png" />
+    <Content Include="Code\images\easeInBounce.png" />
+    <Content Include="Code\images\easeInCubic.png" />
+    <Content Include="Code\images\easeInElastic.png" />
+    <Content Include="Code\images\easeInExpo.png" />
+    <Content Include="Code\images\easeInHeartbeat.png" />
+    <Content Include="Code\images\easeInOutBack.png" />
+    <Content Include="Code\images\easeInOutBounce.png" />
+    <Content Include="Code\images\easeInOutCirc.png" />
+    <Content Include="Code\images\easeInOutCubic.png" />
+    <Content Include="Code\images\easeInOutElastic.png" />
+    <Content Include="Code\images\easeInOutExpo.png" />
+    <Content Include="Code\images\easeInOutHeartbeat.png" />
+    <Content Include="Code\images\easeInOutQuad.png" />
+    <Content Include="Code\images\easeInOutQuart.png" />
+    <Content Include="Code\images\easeInOutQuint.png" />
+    <Content Include="Code\images\easeInOutSine.png" />
+    <Content Include="Code\images\easeInQuad.png" />
+    <Content Include="Code\images\easeInQuart.png" />
+    <Content Include="Code\images\easeInQuint.png" />
+    <Content Include="Code\images\easeInSine.png" />
+    <Content Include="Code\images\easeOutBack.png" />
+    <Content Include="Code\images\easeOutBounce.png" />
+    <Content Include="Code\images\easeOutCirc.png" />
+    <Content Include="Code\images\easeOutCubic.png" />
+    <Content Include="Code\images\easeOutElastic.png" />
+    <Content Include="Code\images\easeOutExpo.png" />
+    <Content Include="Code\images\easeOutHeartbeat.png" />
+    <Content Include="Code\images\easeOutQuad.png" />
+    <Content Include="Code\images\easeOutQuart.png" />
+    <Content Include="Code\images\easeOutQuint.png" />
+    <Content Include="Code\images\easeOutSine.png" />
+    <Content Include="Code\images\events.png" />
+    <Content Include="Code\images\file-blue.gif" />
+    <Content Include="Code\images\file-orange.gif" />
+    <Content Include="Code\images\file-red.gif" />
+    <Content Include="Code\images\heart.png" />
+    <Content Include="Code\images\jquery-bw-logo.png" />
+    <Content Include="Code\images\linear.png" />
+    <Content Include="Code\images\message-bar.gif" />
+    <Content Include="Code\images\panel-bottom.gif" />
+    <Content Include="Code\images\panel-top.gif" />
+    <Content Include="Code\images\photo-bumblebee-tumb.jpg" />
+    <Content Include="Code\images\photo-bumblebee.jpg" />
+    <Content Include="Code\images\photo-cat-tumb.jpg" />
+    <Content Include="Code\images\photo-cat.jpg" />
+    <Content Include="Code\images\photo-chamomile-tumb.jpg" />
+    <Content Include="Code\images\photo-chamomile.jpg" />
+    <Content Include="Code\images\photo-maple-leaf-tumb.jpg" />
+    <Content Include="Code\images\photo-maple-leaf.jpg" />
+    <Content Include="Code\images\photo-snake-tumb.jpg" />
+    <Content Include="Code\images\photo-snake.jpg" />
+    <Content Include="Code\images\swing.png" />
+    <Content Include="Code\images\window.gif" />
+    <Content Include="Code\index.html" />
+    <Content Include="Code\javascript.html" />
+    <Content Include="Code\js\code.js" />
+    <Content Include="Code\js\jquery-ui.js" />
+    <Content Include="Code\js\jquery.color.js" />
+    <Content Include="Code\js\jquery.easing.js" />
+    <Content Include="Code\js\jquery.js" />
+    <Content Include="Code\menu.ajax.html" />
+    <Content Include="Code\menu.drop-down.html" />
+    <Content Include="Code\plugin.extend.html" />
+    <Content Include="Code\plugin.global.html" />
+    <Content Include="Code\plugin.html" />
+    <Content Include="Code\property.html" />
+    <Content Include="Code\ready.html" />
+    <Content Include="Code\sizzle.filter.html" />
+    <Content Include="Code\sizzle.html" />
+    <Content Include="Code\slide.html" />
+    <Content Include="Code\tabs.html" />
+    <Content Include="Code\when.html" />
+    <Content Include="Code\widget.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>16890</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:16890/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

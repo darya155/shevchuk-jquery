@@ -1,0 +1,66 @@
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\ApplicationInsights.config
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\roslyn\csc.exe
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\roslyn\System.Collections.Immutable.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\roslyn\System.Reflection.Metadata.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\roslyn\vbc.exe
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\roslyn\VBCSCompiler.exe
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\roslyn\VBCSCompiler.exe.config
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Shevchuk.dll.config
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Shevchuk.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Shevchuk.pdb
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Microsoft.AI.Agent.Intercept.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Microsoft.AI.DependencyCollector.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Microsoft.AI.Web.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Microsoft.AI.WindowsServer.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Microsoft.ApplicationInsights.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Microsoft.AI.DependencyCollector.xml
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Microsoft.AI.Web.xml
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Microsoft.AI.WindowsServer.xml
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Microsoft.ApplicationInsights.xml
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\obj\Debug\Shevchuk.csprojResolveAssemblyReference.cache
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\obj\Debug\Shevchuk.dll
+E:\PROGRAMMING\Шевчук JQuery\JQuery\Shevchuk\obj\Debug\Shevchuk.pdb
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\ApplicationInsights.config
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\roslyn\csc.exe
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\roslyn\System.Collections.Immutable.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\roslyn\System.Reflection.Metadata.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\roslyn\vbc.exe
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\roslyn\VBCSCompiler.exe
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\roslyn\VBCSCompiler.exe.config
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Shevchuk.dll.config
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Shevchuk.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Shevchuk.pdb
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Microsoft.AI.Agent.Intercept.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Microsoft.AI.DependencyCollector.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Microsoft.AI.Web.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Microsoft.AI.WindowsServer.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Microsoft.ApplicationInsights.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Microsoft.AI.DependencyCollector.xml
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Microsoft.AI.Web.xml
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Microsoft.AI.WindowsServer.xml
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Microsoft.ApplicationInsights.xml
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\obj\Debug\Shevchuk.csprojResolveAssemblyReference.cache
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\obj\Debug\Shevchuk.dll
+E:\PROGRAMMING\Repos\Shevchuk\Shevchuk\obj\Debug\Shevchuk.pdb
