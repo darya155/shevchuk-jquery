@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
         h1, h2 {
             color: #ff6600;
         }
-        header, main, footet {
+        header, main, footer {
             margin: 30px auto;
             width: 600px;
         }
@@ -26,6 +26,48 @@
             box-shadow: 0 0 2px #ccc;
         }
     </style>
+    <script>
+        //мы пытаемся найти все элементы <h2> на странице
+        //и изменить цвет шрифта на зеленый
+        //не выполняется операция!
+        jQuery("h2").css("color", "green");
+    </script>
+    <script>
+        //ждем загрузки всего документа
+        //после этого будет выполнена анонимная функция
+        //которую мы передали в качестве параметра
+        //it`s working!!!
+        jQuery(document).ready(function() {
+           jQuery("h2").css("color", "green");
+        });     
+    </script>
+    <script>
+        //так же можно использовать сокращенный вариант
+        //без вызова метода .ready()
+        //it`s working too!!!
+        $(function () {
+            $("h2").css("color", "blue");
+        });
+    </script>
+    <script>
+        //$()==jQuery()
+        //что бы не возникло конфликтов за использование $
+        //Шевченко советует оборачивать код в анонимную 
+        //функцию следующего вида (best practice)
+        (function ($, undefined) {
+
+            //тут тихо и уютно
+            //мы всегда будем уверены, что $==jQuery
+            //а undefined не переопределен
+            $(function () {
+                $("h2").css("color", "blue");
+            });
+
+        })(jQuery);
+        
+    </script>
+
+
 </head>
 <body>
     <header>
